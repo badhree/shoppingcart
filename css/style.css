@@ -13,6 +13,19 @@ html{
 	text-align: center;
 }
 
+.add {
+	margin-top: 25px;
+	margin-left: 5px;
+	width: 40px;
+    height: 40px;
+    position:absolute;
+    background-color: yellow;
+    border-color: black;
+    font-weight: bolder;
+    font-size: 2em;
+
+}
+
 .input{
 	margin-top: 25px;
 	width: 300px;
@@ -21,24 +34,41 @@ html{
 	color: maroon;
 }
 
-.listcontrol{
-	height: 300px;
-	width: 35px;
-	text-align: center;
-	background-color: yellow;
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: left;
+width: 25em;
+margin-top: 25px;
+margin-left: 425px;
 }
 
-.add{
-	font-size: 25px;
-	border-color: black;		
-}
-
-.shoppinglist{
-	background-color: yellow;
-	color: black;
-	font-size: 25px;
-	height: 40px;	
-	width: 45px;
-	text-align: center;
+li
+{
+background-repeat: no-repeat;
+background-position: 100% .4em;
+padding-right: .6em;
+  border-style:solid;
+   border-color:black;    
+   position:relative;
+   background-color: yellow;
+   font-size: 2em;
 
 }
+
+
+li button{
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top:2px;
+    right:2px;
+    margin-right: 10px;
+    background-color: yellow;
+    border-color: black;
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+

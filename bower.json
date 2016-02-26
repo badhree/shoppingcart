@@ -1,0 +1,19 @@
+{
+  "name": "bower install jquery",
+  "version": "0.0.0",
+  "homepage": "https://github.com/badhree/shoppingcart",
+  "authors": [
+    "badhree <badhri.sadagopan@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
